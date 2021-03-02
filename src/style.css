@@ -1,0 +1,68 @@
+
+.headercontainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-around;
+    background-color: powderblue;
+}
+
+.log {
+    display: flex;
+    background-color: lightgrey;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.postcard {
+    background-color: lightpink;
+    padding: 0.5rem;
+    border-bottom: 5px solid grey;
+    margin: 0.5rem;
+    line-height: 0.7rem;
+}
+
+.postcardsearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postdetail {
+    padding: 2rem;
+    background-color: lightgrey;
+    /* box-shadow:0px 5px 15px 11px #a14f4f */
+    ;
+}
+
+.searchinput {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.homepage {
+    color: rgb(33, 92, 116);
+    font-size: 25mm;
+}
+
+.UpdateDetail {
+    /* width: 50%; */
+    display: flex;
+    /* background-color: palevioletred; */
+    /* flex-direction: row; */
+}
+
+.sendMessage {
+    
+    /* width: 50%; */
+    display: flex;
+    /* background-color: palevioletred; */
+    /* flex-direction: row; */
+}
+
+.postdetailbtn {
+    /* display: flex; */
+    width: 100%;
+}
